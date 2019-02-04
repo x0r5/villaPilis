@@ -8,7 +8,6 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
-
 }
 
 .parallax {
@@ -43,22 +42,13 @@ body, html {
   height: 100%;
 }
 
-.caption .erdekel {
+.caption .border {
   background-color: #111;
   color: #fff;
-  padding: 0 50px 0 50px;
-  font-size: 5vw;
+  padding: 18px;
+  font-size: 25px;
   letter-spacing: 10px;
 }
-
-
-
-.erdekel:hover{
-    background-color: transparent;
-    border: 2px solid black;
-    color: black;
-}
-
 
 h3 {
   letter-spacing: 5px;
@@ -70,7 +60,7 @@ h3 {
 
 .text {
   color: #777777;
-  background-color: rgba(255,255,255,0.4);
+  background-color: #ffffff;
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
