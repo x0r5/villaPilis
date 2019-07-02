@@ -12,10 +12,13 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body, html{
         margin: 0;
         min-width: 980px;
         padding: 0;
+        font-size: 0.45cm;
+        font-style:normal;
+        font: 400 15px/1.8 "Lato", sans-serif;
 }
 
 p{
@@ -23,10 +26,9 @@ p{
 }
 
 p, ul{
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;
         font-size-adjust:0.488;
-        font-weight:200;
-        font-style:normal;
+        font-weight:200;*/
 }
 
 img{
@@ -35,15 +37,15 @@ img{
 }
 
 h1, #pixels{
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
         font-size-adjust:0.40;
         font-weight:700;
         font-style:normal;
 }
 
 h2{
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size-adjust:0.531;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
+        font-size: 1.5cm;
         font-weight:500;
         font-style:normal;
 }
@@ -83,17 +85,17 @@ h2{
 }
 
 #intro{
-        background:url("images/work-1.jpg") 50% 0 no-repeat fixed;
+        background:url("images/villaPilis-05.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
-        height: 600px;
+        height: 800px;
         margin: 0 auto;
         padding: 0;
         width: 100%;
 }
 
 #second{
-        background: url("images/secondBG-1.jpg") 50% 0 no-repeat fixed;
+        background: url("images/teli-7.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
         height: 1300px;
@@ -116,7 +118,7 @@ h2{
 }
 
 #third{
-        background: url("images/creative-1.jpg") 50% 0 no-repeat fixed;
+        background: url("images/villaPilis-02.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: black;
         height: 650px;
@@ -136,12 +138,10 @@ h2{
 .story{
         margin: 0 auto;
         min-width: 980px;
-        overflow: auto;
         width: 980px;
 }
 
 .story .float-left, .story .float-right{
-        padding: 100px 0 0 0;
         position: relative;
-        width: 350px;   
+        width: 980px;   
 }
