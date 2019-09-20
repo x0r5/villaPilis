@@ -1,7 +1,7 @@
   var scroll = window.requestAnimationFrame;
   var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
-  var rellax = new Rellax('.rellax');
+  var rellax = new Rellax('.relax');
 
 
 

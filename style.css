@@ -41,15 +41,25 @@ body{
 }
 
 .image-big{
-  display:inline-block;
-  margin: 0 auto;
-  width: 85%;
+  background: url(img/teli-4.jpg);
+  background-size: cover;
+  width: 85vw;
+  height: 56.6vw;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
 }
 
 .over-text{
-  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
   position: absolute;
   top: 50%;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.1);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
