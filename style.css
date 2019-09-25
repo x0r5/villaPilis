@@ -3,10 +3,9 @@
   margin: 0;
 }
 
-body, html {
-  height: 100%;
+body, html, div {
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #777;
 }
 
@@ -26,39 +25,84 @@ h3 {
   text-align: justify;
 }
 
-.red{
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 500px;
-  margin: 10px, auto;
-
-}
-
 body{
   height: 3000px;
 }
 
 .image-big{
   background-size: cover;
-  width: 85vw;
+  
   height: 56.6vw;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#image-big-2{
+  height: 200%;
 }
 
 .over-text{
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 20px;
   text-transform: uppercase;
   margin: 0;
   color: white;
+}
+.over-text-2{
+  z-index: 99999;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   
+  text-shadow: 2px 2px 5px #00000077;
+  width: 100%;
+  text-align: center;
+}
+
+.image-row{
+  
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+@media all and (min-width: 576px){
+  .over-text{
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+
+  .over-text-2{
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .image-row{
+    margin-top: 100px;
+  }
+}
+
+@media all and (min-width: 768px){
+  .over-text{
+    font-size: 40px;
+  }
+}
+
+@media all and (min-width: 992px){
+  .image-row{
+    width: 80vw;
+    margin: 100px auto;
+  }
+  .over-text{
+    letter-spacing: 20px;
+  }
+  .over-text-2{
+    letter-spacing: 10px;
+  }
 }
