@@ -12,14 +12,18 @@
 
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- AOS scroll animations-->
+  <link rel="stylesheet" href="aos.css">
   <title>Villa Pilis Dunakanyar</title>
 </head>
 
 <body>
   <div class="container-fluid">
-      <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand mx-auto" href="#">Villa Pilis</a>
-        </nav>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand mx-auto" href="index.html">Villa Pilis</a>
+      <a class="nav-item nav-link" target="_blank" href="https://g.page/villapilis?share">Térkép</a>
+    </nav>
 
 
     <div class="row">
@@ -34,8 +38,103 @@
       </div>
       <div class="over-text over-text-2">Mert kell egy hely</div>
     </div>
+  </div>
+
+
+  <div class="container-fluid container-2">
+    <div class="row">
+      <div class="title-main">Miért gyertek hozzánk?</div>
+    </div>
+
+    <div class="row row-2">
+      <div class="col-md">
+        <div class="title-2">Wellness</div>
+        <div class="text-2">Pihenés és egészségmegőrzés egyben.</div>
+        <button type="button" class=" showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+      <div class="col-md-8">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
+          <div id="toshow">
+            It is showtime...
+          </div>
+          <img class="img-fluid" src="img/villaPilis-06.jpg">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row row-2">
+      <div class="col-md title-2-small">
+        <div class="title-2">Nyugalom</div>
+        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+      <div class="col-md-8">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
+          <div id="toshow">
+            It is showtime...
+          </div>
+          <img class="img-fluid" src="img/villaPilis-06.jpg">
+        </div>
+      </div>
+      <div class="col-md title-2-big">
+        <div class="title-2">Nyugalom</div>
+        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+    </div>
+
+    <div class="row row-2">
+      <div class="col-md">
+        <div class="title-2">Csodálatos belső terek</div>
+        <div class="text-2">Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
+          egyaránt.</div>
+        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+      <div class="col-md-8">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
+          <div id="toshow">
+            It is showtime...
+          </div>
+          <img class="img-fluid" src="img/villaPilis-04.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-2">
+      <div class="col-md title-2-small">
+        <div class="title-2">Nyugalom</div>
+        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+      <div class="col-md-8">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
+          <div id="toshow">
+            It is showtime...
+          </div>
+          <img class="img-fluid" src="img/villaPilis-06.jpg">
+        </div>
+      </div>
+      <div class="col-md title-2-big">
+        <div class="title-2">Nyugalom</div>
+        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
+      </div>
+    </div>
 
   </div>
+
+  <div class="container-fluid my-5">
+    <div class="row justify-content-md-center">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.0154738438737!2d18.87859201563655!3d47.78114797919658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc29985c194f%3A0x137415d5aa64cace!2sVilla%20Pilis%20Dunakanyar!5e0!3m2!1shu!2shu!4v1569423361197!5m2!1shu!2shu" width="100%" height="100%" frameborder="0" style="border:0;" ></iframe>     
+         </div>
+    </div>
+  </div>
+
+  
+
+
 
 
 
@@ -43,9 +142,8 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
     integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
@@ -54,6 +152,11 @@
     crossorigin="anonymous"></script>
   <!-- parallax js -->
   <script src="rellax.min.js"></script>
+
+
+  <!-- AOS scroll animations-->
+  <script src="aos.js"></script>
+
   <script src="app.js"></script>
 
   <script>

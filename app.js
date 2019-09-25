@@ -1,7 +1,24 @@
-  var scroll = window.requestAnimationFrame;
-  var elementsToShow = document.querySelectorAll('.show-on-scroll');
+var scroll = window.requestAnimationFrame;
+var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
+
+
+$(document).ready(function () {
+  
   var rellax = new Rellax('.relax');
+  AOS.init();
+
+  $(".showit").click(function () {
+    $parent = $(this).parent().parent().find(".col-md-8");
+    $parent.find("img").slideToggle();
+    $parent.find("#toshow").slideToggle("slow");
+  });
+
+});
+
+
+
+
 
 
 
