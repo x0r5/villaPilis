@@ -28,10 +28,14 @@ h3 {
 body{
   height: 3000px;
 }
+.navbar-brand{
+  letter-spacing: 1vw;
+}
 
 .image-big{
   background-size: cover;
-  
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 56.6vw;
   
   display: flex;
@@ -40,8 +44,13 @@ body{
   overflow: hidden;
 }
 
+#image-big-1{
+  background-image: url(img/teli-6.jpg);
+}
+
 #image-big-2{
   height: 200%;
+  background-image: url(img/teli-5.jpg);
 }
 
 .over-text{
@@ -97,6 +106,7 @@ body{
 @media all and (min-width: 992px){
   .image-row{
     width: 80vw;
+    height: 500px;
     margin: 100px auto;
   }
   .over-text{

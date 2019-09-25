@@ -3,8 +3,6 @@
 
   var rellax = new Rellax('.relax');
 
-  $('#image-big-1').css('background-image', 'url(img/teli-6.jpg)');
-  $('#image-big-2').css('background-image', 'url(img/teli-4.jpg)');
 
 
 
