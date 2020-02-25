@@ -5,8 +5,8 @@ var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
 $(document).ready(function () {
   
-  var rellax = new Rellax('.relax');
-  AOS.init();
+  var rellax = new Rellax('.relax'); //rellax.js
+  AOS.init(); //scroll animations
 
   $(".showit").click(function () {
     $parent = $(this).parent().parent().find(".col-md-8");

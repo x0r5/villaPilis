@@ -10,11 +10,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-  <!-- STYLESHEET -->
-  <link rel="stylesheet" href="style.css">
-
   <!-- AOS scroll animations-->
-  <link rel="stylesheet" href="aos.css">
+  <link rel="stylesheet" href="/frameworks/aos/aos.css">
+
+  <!-- Datepicker CSS -->
+  <link rel="stylesheet" href="frameworks/daterangepicker/daterangepicker.css">
+
+  <!-- LOCAL CSS -->
+  <link rel="stylesheet" href="style.css">
+  
   <title>Villa Pilis Dunakanyar</title>
 </head>
 
@@ -124,6 +128,19 @@
 
   </div>
 
+  <div class="row row-2">
+    <div class="d-flex align-items-center service-list">
+      <div class="service-item">
+        <div class="row"><img class="service-icon" src="icons/parking-sign.svg"></div>
+        <div class="row">Ingyenes és zárt parkoló</div>
+      </div>
+      <div class="service-item">
+        <div class="row"><img class="service-icon" src="icons/swimming-pool.svg" width="40px" height="40px"></div>
+        <div class="row">Úszómedence</div>
+      </div>
+    </div>
+  </div>
+
   <div class="container-fluid my-5">
     <div class="row justify-content-md-center">
       <div class="embed-responsive embed-responsive-16by9">
@@ -150,12 +167,20 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
+  <!-- angular js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  <!-- moment js-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+
   <!-- parallax js -->
-  <script src="rellax.min.js"></script>
+  <script src="/frameworks/rellax/rellax.min.js"></script>
 
 
   <!-- AOS scroll animations-->
-  <script src="aos.js"></script>
+  <script src="/frameworks/aos/aos.js"></script>
+
+  <!-- datepicker -->
+  <script src="frameworks/daterangepicker/daterangepicker.min.js"></script>
 
   <script src="app.js"></script>
 

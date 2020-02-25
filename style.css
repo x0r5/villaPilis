@@ -116,6 +116,16 @@ body{
   display: none;
 }
 
+.service-list{
+  padding: 0 10%;
+}
+.service-item{
+  width: auto;
+}
+.service-icon{
+  margin: auto;
+}
+
 
 
 
