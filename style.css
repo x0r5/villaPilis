@@ -126,6 +126,10 @@ body{
   margin: auto;
 }
 
+.send-button{
+  display: block;
+}
+
 
 
 
