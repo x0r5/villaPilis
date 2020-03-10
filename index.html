@@ -3,8 +3,10 @@
 
 <head>
   <!-- Required meta tags -->
+  <!--meta http-equiv="refresh" content="0;https://www.villapilis.hu" /-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -23,25 +25,41 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand mx-auto" href="index.html">Villa Pilis</a>
-      <a class="nav-item nav-link" target="_blank" href="https://g.page/villapilis?share">Térkép</a>
-    </nav>
 
-
-    <div class="row">
-      <div id="image-big-1" class="col image-big">
-        <div class="over-text relax" data-rellax-speed="1">Villa a Pilisben</div>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Villa Pilis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#reservation-form">Foglalas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://maps.google.com/maps?ll=47.781148,18.880781&z=16&t=m&hl=hu&gl=HU&mapclient=embed&cid=1401769391450016462">Terkep</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
 
-    <div class="row image-row">
-      <div id="image-big-2" class="col-12 image-big relax" data-rellax-speed="2">
-      </div>
-      <div class="over-text over-text-2">Mert kell egy hely</div>
+
+  <div class="row">
+    <div id="image-big-1" class="col image-big">
+      <div class="over-text relax" data-rellax-speed="1">Villa a Pilisben</div>
     </div>
+  </div>
+
+
+  <div class="row image-row">
+    <div id="image-big-2" class="col-12 image-big relax" data-rellax-speed="2">
+    </div>
+    <div class="over-text over-text-2">Mert kell egy hely</div>
+  </div>
   </div>
 
 
@@ -196,24 +214,27 @@
         </div>
       </div>
       <div class="form-row">
-        <div class"form-group col-md-4">
-          <label for"input-villa">Az egész kell?</label>
+        
+        <div class="form-group col-md-6">
+          <label for="input-name">Teljes Név</label>
+          <input id="input-name" type="text" class="form-control" placeholder="Név" name="input-name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="input-email">Email cím</label>
+          <input id="input-email" type="email" class="form-control" placeholder="email" name="input-email">
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="input-villa">Az egész kell?</label>
           <select id="input-villa" class="form-control" name="input-villa">
             <option selected>Az egész villa az enyém!</option>
             <option>4 -en vagyunk, a fél villával is beérem!</option>
           </select>
         </div>
-        <div class="form-group col-md-6">
-          <label for="input-name">Teljes Név</label>
-          <input id="input-name" type="text" class="form-control" placeholder="Név" name="input-name">
-        </div>
-      </div>
-      <div class="form-row">
-        <div class"form-group col-md-6">
-          <label for="input-email">Email cím</label>
-          <input id="input-email" type="email" class="form-control" placeholder="email" name="input-email">
-        </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-8">
           <label for="input-comment">Megjegyzés</label>
           <textarea class="form-control" id="input-comment" rows="3" name="input-comment"></textarea>
         </div>
