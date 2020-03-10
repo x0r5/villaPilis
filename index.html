@@ -34,9 +34,6 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#reservation-form">Foglalas</a>
         </li>
         <li class="nav-item">
@@ -71,15 +68,14 @@
     <div class="row row-2">
       <div class="col-md">
         <div class="title-2">Wellness</div>
-        <div class="text-2">Pihenés és egészségmegőrzés egyben.</div>
-        <button type="button" class=" showit btn btn-outline-secondary">Mutasd</button>
+        <div class="text-2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac arcu felis.
+          Quisque ultricies, lacus efficitur posuere aliquet, nunc libero pellentesque libero.
+        </p><p>Maecenas a leo purus. Fusce eget varius ex, vel interdum elit. Donec lobortis ante et ligula rutrum luctus. 
+          Cras aliquet diam iaculis dolor rhoncus, et interdum quam consequat. </p></div>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
-          <div id="toshow">
-            It is showtime...
-          </div>
-          <img class="img-fluid" src="img/villaPilis-06.jpg">
+          <img class="img-fluid" src="img/medence-1.jpg">
         </div>
       </div>
     </div>
@@ -89,20 +85,15 @@
       <div class="col-md title-2-small">
         <div class="title-2">Nyugalom</div>
         <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
-        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
-          <div id="toshow">
-            It is showtime...
-          </div>
-          <img class="img-fluid" src="img/villaPilis-06.jpg">
+          <img class="img-fluid" src="img/teli-8.jpg">
         </div>
       </div>
       <div class="col-md title-2-big">
         <div class="title-2">Nyugalom</div>
         <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
-        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
       </div>
     </div>
 
@@ -111,50 +102,37 @@
         <div class="title-2">Csodálatos belső terek</div>
         <div class="text-2">Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
           egyaránt.</div>
-        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
-          <div id="toshow">
-            It is showtime...
-          </div>
-          <img class="img-fluid" src="img/villaPilis-04.jpg">
+          <img class="img-fluid" src="img/belso-1.jpg">
         </div>
       </div>
     </div>
 
     <div class="row row-2">
-      <div class="col-md title-2-small">
-        <div class="title-2">Nyugalom</div>
-        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
-        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
-      </div>
       <div class="col-md-8">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
-          <div id="toshow">
-            It is showtime...
-          </div>
-          <img class="img-fluid" src="img/villaPilis-06.jpg">
+          <img class="img-fluid" src="img/belso-2.jpg">
         </div>
       </div>
       <div class="col-md title-2-big">
-        <div class="title-2">Nyugalom</div>
+        <div class="title-2">Kényelmes és tágas szobák</div>
         <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
-        <button type="button" class="showit btn btn-outline-secondary">Mutasd</button>
       </div>
     </div>
 
   </div>
 
   <div class="row row-2">
-    <div class="d-flex align-items-center service-list">
+    <div class="d-flex justify-content-center service-list">
       <div class="service-item">
-        <div class="row"><img class="service-icon" src="icons/parking-sign.svg"></div>
-        <div class="row">Ingyenes és zárt parkoló</div>
+        <div class="row"><img class="service-icon" src="svgs/pool-vector.svg"></div>
+        <div class="row">Medence</div>
       </div>
       <div class="service-item">
-        <div class="row"><img class="service-icon" src="icons/swimming-pool.svg" width="40px" height="40px"></div>
-        <div class="row">Úszómedence</div>
+        <div class="row"><img class="service-icon" src="svgs/sauna-vector.svg"></div>
+        <div class="row">Szauna</div>
       </div>
     </div>
   </div>
@@ -216,6 +194,7 @@
       <div class="form-row">
         
         <div class="form-group col-md-6">
+          <input type="hidden" id='captcha' name="captcha">
           <label for="input-name">Teljes Név</label>
           <input id="input-name" type="text" class="form-control" placeholder="Név" name="input-name">
         </div>
@@ -281,6 +260,9 @@
 
   <!-- datepicker -->
   <script src="frameworks/daterangepicker/daterangepicker.min.js"></script>
+
+  <!-- google captcha -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfeLuAUAAAAAIjzNVkPRGIAqw5xGItBEDol-h0a"></script>
 
   <script src="app.js"></script>
 

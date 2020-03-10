@@ -17,6 +17,27 @@
     require 'src/SMTP.php';
     require 'src/credentials.php';
 
+
+    function checkCaptcha($gotCaptcha, $secretKey){
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = array('secret' => $secretKey, 'response' => $gotCaptcha);
+        $options = array(
+            'http' => array(
+              'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+              'method'  => 'POST',
+              'content' => http_build_query($data)
+            )
+        );
+        $context  = stream_context_create($options);
+        $response = file_get_contents($url, false, $context);
+        $responseKeys = json_decode($response,true);
+        header('Content-type: application/json');
+        if($responseKeys["success"]) {
+        return true;
+        }
+        return false;
+    }
+
     $error = '';
     $message = '';
     
@@ -30,6 +51,14 @@
         $email = $_POST['input-email'];
         $daterange = $_POST['daterange'];
         $comment = $_POST['input-comment'];
+        $captcha = $_POST['captcha'];
+
+
+        if( ! $captcha || ! checkCaptcha($captcha, $captchaPrivateKey)){
+            $error = "Google captcha hiba. Kérlek írj emailt inkább!";
+            $errorMessage = '<div class="alert alert-danger" role="alert"><p>'.$error.'</p></div>';
+            die(error($errorMessage));
+        }
 
 
         if(!$_POST["input-email"]){

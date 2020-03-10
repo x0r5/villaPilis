@@ -2,3 +2,4 @@ phpmyadmin
 sutemeny-adatbazis
 phpmailer/
 src/credentials.php
+*.jpg

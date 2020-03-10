@@ -5,10 +5,18 @@ var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
 $(document).ready(function () {
 
+  if (location.hostname.match('villapilis.hu')) {
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LfeLuAUAAAAAIjzNVkPRGIAqw5xGItBEDol-h0a', { action: 'homepage' }).then(function (token) {
+        document.getElementById("captcha").value = token;
+      });
+    });
+  }
+
   var date = new Date();
-  var today=(date.getFullYear()+"/"+(date.getMonth()+1)+"/"+date.getDate());
-  var tomorrow =(date.getFullYear()+"/"+(date.getMonth()+1)+"/"+(date.getDate()+1));
-  
+  var today = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate());
+  var tomorrow = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + (date.getDate() + 1));
+
   var rellax = new Rellax('.relax'); //rellax.js
   AOS.init(); //scroll animations
 
@@ -21,52 +29,52 @@ $(document).ready(function () {
 
   $('input[name="daterange"]').daterangepicker({
     "maxSpan": {
-        "days": 10
+      "days": 10
     },
     "locale": {
-        "format": "YYYY/MM/DD",
-        "separator": " - ",
-        "applyLabel": "Tovább",
-        "cancelLabel": "Mégsem",
-        "fromLabel": "From",
-        "toLabel": "To",
-        "customRangeLabel": "Custom",
-        "weekLabel": "W",
-        "daysOfWeek": [
-            "Vas",
-            "Hé",
-            "Ke",
-            "Sze",
-            "Csü",
-            "Pé",
-            "Szo"
-        ],
-        "monthNames": [
-            "Január",
-            "Február",
-            "Március",
-            "Április",
-            "Május",
-            "Június",
-            "Július",
-            "Augusztus",
-            "Szeptember",
-            "Október",
-            "November",
-            "December"
-        ],
-        "firstDay": 1
+      "format": "YYYY/MM/DD",
+      "separator": " - ",
+      "applyLabel": "Tovább",
+      "cancelLabel": "Mégsem",
+      "fromLabel": "From",
+      "toLabel": "To",
+      "customRangeLabel": "Custom",
+      "weekLabel": "W",
+      "daysOfWeek": [
+        "Vas",
+        "Hé",
+        "Ke",
+        "Sze",
+        "Csü",
+        "Pé",
+        "Szo"
+      ],
+      "monthNames": [
+        "Január",
+        "Február",
+        "Március",
+        "Április",
+        "Május",
+        "Június",
+        "Július",
+        "Augusztus",
+        "Szeptember",
+        "Október",
+        "November",
+        "December"
+      ],
+      "firstDay": 1
     },
-    
+
     "startDate": this.today,
     "endDate": this.tomorrow
-}, function(start, end, label) {
-  console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
-});
+  }, function (start, end, label) {
+    console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+  });
 
 });
 
-$("#reservation-form").submit(function(event){
+$("#reservation-form").submit(function (event) {
   event.preventDefault();
   var $form = $(this);
   var $inputs = $form.find("input-date, input-persons, input-children, input-villa, input-name, input-email");
@@ -76,7 +84,7 @@ $("#reservation-form").submit(function(event){
 
   var serializedData = $form.serialize();
   $inputs.prop("disabled", true);
-  
+
   request = $.ajax({
     url: "reservation.php",
     type: "post",
@@ -84,7 +92,7 @@ $("#reservation-form").submit(function(event){
     data: serializedData
   });
 
-  request.done(function( response, textStatus, jqXHR){
+  request.done(function (response, textStatus, jqXHR) {
     console.log("form data sent");
     console.log(response.message);
     console.log(response.error);
@@ -93,13 +101,12 @@ $("#reservation-form").submit(function(event){
 
   });
 
-  request.fail(function( jqXHR, textStatus, errorThrown){
+  request.fail(function (jqXHR, textStatus, errorThrown) {
     console.log("ajax: the following error occured: " + textStatus, errorThrown, jqXHR);
     formerror.html(textStatus);
 
   });
 });
-
 
 
 
