@@ -132,13 +132,18 @@ body{
 
 .service-list{
   padding: 0 10%;
+  width: 100%;
 }
 .service-item{
-  width: 10vw;
-  height: 10vw;
+  margin: 0 5px;
 }
 .service-icon{
-  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.service-text{
+  text-align: center;
 }
 
 .send-button{
@@ -212,5 +217,10 @@ body{
   }
   .over-text-2{
     letter-spacing: 10px;
+  }
+
+  .service-icon{
+    width: 120px;
+    height: 120px;
   }
 }

@@ -51,11 +51,11 @@
         $email = $_POST['input-email'];
         $daterange = $_POST['daterange'];
         $comment = $_POST['input-comment'];
-        $captcha = $_POST['captcha'];
+        $captcha = $_POST['g-recaptcha-response'];
 
 
         if( ! $captcha || ! checkCaptcha($captcha, $captchaPrivateKey)){
-            $error = "Google captcha hiba. Kérlek írj emailt inkább!";
+            $error = "Pipáld ki a \"nem vagyok robot\" jelölőt! Ha nem megy kérlek írj inkább emailt inkább!";
             $errorMessage = '<div class="alert alert-danger" role="alert"><p>'.$error.'</p></div>';
             die(error($errorMessage));
         }

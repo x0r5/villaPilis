@@ -5,14 +5,6 @@ var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
 $(document).ready(function () {
 
-  if (location.hostname.match('villapilis.hu')) {
-    grecaptcha.ready(function () {
-      grecaptcha.execute('6LfeLuAUAAAAAIjzNVkPRGIAqw5xGItBEDol-h0a', { action: 'homepage' }).then(function (token) {
-        document.getElementById("captcha").value = token;
-      });
-    });
-  }
-
   var date = new Date();
   var today = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate());
   var tomorrow = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + (date.getDate() + 1));
