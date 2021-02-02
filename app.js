@@ -68,6 +68,8 @@ $(document).ready(function () {
 
 $("#reservation-form").submit(function (event) {
   event.preventDefault();
+  alert('Ez még nem működik!');
+  return;
   var $form = $(this);
   var $inputs = $form.find("input-date, input-persons, input-children, input-villa, input-name, input-email");
   var formerror = $form.find("[id='error']");

@@ -41,7 +41,7 @@
     $error = '';
     $message = '';
     
-    if($_POST){
+    if(false){//$_POST){
         $return = array();
 
         $name = $_POST['input-name'];
