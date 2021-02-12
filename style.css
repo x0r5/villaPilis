@@ -115,11 +115,18 @@ body{
   font-size: 40px;
   letter-spacing: 1vw;
   color: var(--main-title-color);
+  
 }
 
 .title-2{
   font-size: 30px;
   color: var(--main-title-color);
+  cursor: pointer;
+}
+
+.title-2:hover {
+  /* color: #2685c2; */
+  /*text-shadow: 3px 2px 15px #0e38a2;*/
 }
 
 .title-2-big{
