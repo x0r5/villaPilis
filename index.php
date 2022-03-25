@@ -81,8 +81,16 @@
 
   <div class="container-fluid container-2">
     <div class="row row-2">
-      <div class="container">
+      <div class="container map-container">
         <img src="svgs/villa-alaprajz.svg"></img>
+        <span id="room1" class="map-dot" style="top: 20%; left: 10%;"></span>
+        <span id="room2" class="map-dot" style="top: 46%; left: 10%;"></span>
+        <span id="room3" class="map-dot" style="top: 75%; left: 10%;"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div id="room1-content">
+        <img class="img-fluid" src="img/"
       </div>
     </div>
   </div>

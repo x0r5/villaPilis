@@ -1,7 +1,12 @@
 var scroll = window.requestAnimationFrame;
 var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
+document.querySelectorAll('.map-dot').forEach(element =>{element.addEventListener("click", (e)=>{handleRoomButtonClick(e)})});
 
+function handleRoomButtonClick(event){
+  let roomId = event.target.id;
+  console.log(roomId);
+}
 
 $(document).ready(function () {
 
