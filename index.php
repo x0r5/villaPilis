@@ -14,14 +14,31 @@
     </div>
 
     <div class="row row-2">
+      <div class="text-2">
+        <p>
+          Pilismaróton - a Dunakanyar egyik mesés településén - található a Villa Pilis vendégház, mely két önálló, minden igényt kielégítő apartmannal rendelkezik.
+        </p>
+        <p>
+          Az egész ház 8 fő kényelmes befogadására alkalmas. További igény esetén a nappaliban két nagyméretű kényelmes kihúzható kanapé, további 4 fő elhelyezését teszi lehetővé.
+          A két apartmanban 4 hálószoba, 2 nagyméretű amerikai konyhával egybekötött nappali, 2 fürdőszoba 4 wc áll a vendégek rendelkezésére.
+          Az apartmanok légkondicionáltak, padlófűtéssel ellátottak, a nappaliban pedig hangulatos retró téglakályha is melegít.
+        </p>
+        <p>
+          Wi-Fi internet lefedettség az egész ház területén elérhető.
+        </p>
+        <p>
+          A szobákhoz síkképernyős, műholdas tv, ingyenes wifi használat, törölköző és ágynemű tartozik. A konyha teljesen gépesített: gáztűzhely, sütő, mosogatógép, mikro.
+          A főzéshez, étkezéshez minden szükséges eszköz megtalálható. A fürdőszobák zuhanykabinnal és káddal, valamint mosógéppel, hajszárítóval is felszereltek.
+        </p>
+      </div>
+    </div>
+
+    <div class="row row-2">
       <div class="col-md">
-        <div class="title-2" onclick="location.href = '/wellness'" >Wellness</div><a href="/wellness">Tovább ></a>
-        <div class="text-2">
+        <div class="title-2" onclick="location.href = '/wellness.php'" >Wellness</div><a href="/wellness.php">Tovább ></a>
+        <div>
           <p>
-            A napozás és fürdés kedvelőinek a kertre nyíló hatalmas Wellness teraszt ajánljuk. Itt található egy fűtött 6x3m -es úszómedence (április 15 és október 1 között üzemel), napozó ágyakkal, színes babzsákokkal.
-          </p>
-          <p>
-            Továbbá a wellness részleghez tartozik egy 6 személyes finn szauna, mellette csobbanó medence és álló zuhany. A szauna nagy méretű ablaka a kertre néz, ami télen csodálatos kontrasztot teremt a gyönyörű havas táj látványa és a szauna melege között.
+            A napozás és fürdés kedvelőinek a kertre nyíló hatalmas Wellness teraszt ajánljuk. Legyen szó akár szaunázásról, napozásról vagy fürdésről, nálunk garantált a kikapcsolódás!
           </p>
         </div>
       </div>
@@ -35,11 +52,9 @@
 
     <div class="row row-2">
       <div class="col-md title-2-small">
-        <div class="title-2" onclick="location.href ='/calm'" >Nyugalom</div><a href="/calm">Tovább ></a>
-          <div class="text-2">
+        <div class="title-2" onclick="location.href ='/activities.php'" >Nyugalom és kikapcsolódás</div><a href="/activities.php">Tovább ></a>
+          <div>
             <p>A Pilis lábánál és a Dunakanyar szívében garantált a kikapcsolódás.</p>
-            <p>A teraszokat egy hatalmas virágoskert veszi körül, ahol sétautak, római kori romok, és a domb tetején dunakanyari panorámát nyújtó kilátó található.</p>
-            <p>A gyerekek játszóterén homokozó, hinta és egy baba csobbanó kapott helyet.</p>
 
           </div>
       </div>
@@ -49,19 +64,17 @@
         </div>
       </div>
       <div class="col-md title-2-big">
-        <div class="title-2" onclick="location.href ='/calm'" >Nyugalom</div><a href="/calm">Tovább ></a>
-          <div class="text-2">
+        <div class="title-2" onclick="location.href ='/activities.php'" >Nyugalom és kikapcsolódás</div><a href="/activities.php">Tovább ></a>
+          <div>
             <p>A Pilis lábánál és a Dunakanyar szívében garantált a kikapcsolódás.</p>
-            <p>A teraszokat egy hatalmas virágoskert veszi körül, ahol sétautak, római kori romok, és a domb tetején dunakanyari panorámát nyújtó kilátó található.</p>
-            <p>A gyerekek játszóterén homokozó, hinta és egy baba csobbanó kapott helyet.</p>
           </div>
       </div>
     </div>
 
     <div class="row row-2">
       <div class="col-md">
-        <div class="title-2" onclick="location.href ='/terrace'" >Fedett grill terasz</div><a href="/terrace">Tovább ></a>
-        <div class="text-2">Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
+        <div class="title-2" onclick="location.href ='#'" >Fedett grill terasz</div><a href="#">Tovább ></a>
+        <div>Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
           egyaránt.</div>
       </div>
       <div class="col-md-8">
@@ -74,7 +87,7 @@
     <div class="row row-2">
       <div class="col-md title-2-small">
         <div class="title-2" onclick="location.href = '/rooms'" >Kényelmes és tágas szobák</div><a href="/rooms">Tovább ></a>
-        <div class="text-2">Egyedileg berendezett, tágas terek találhatóak a házon belül, hogy garantált legyen a kikapcsolódás.</div>
+        <div>Egyedileg berendezett, tágas terek találhatóak a házon belül, hogy garantált legyen a kikapcsolódás.</div>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
@@ -82,17 +95,17 @@
         </div>
       </div>
       <div class="col-md title-2-big">
-        <div class="title-2" onclick="location.href = '/rooms'" >Kényelmes és tágas szobák</div><a href="/rooms">Tovább ></a>
-        <div class="text-2">Egyedileg berendezett, tágas terek találhatóak a házon belül, hogy garantált legyen a kikapcsolódás.</div>
+        <div class="title-2" onclick="location.href = '#floormap'" >Kényelmes és tágas szobák</div><a href="#floormap">Tovább ></a>
+        <div>Egyedileg berendezett, tágas terek találhatóak a házon belül, hogy garantált legyen a kikapcsolódás.</div>
       </div>
     </div>
 
   </div>
 
-  <div class="row row-2">
+  <div id="floormap" class="row row-2">
     <div class="col-md">
       <div class="title-2">Alaprajz képekkel</div>
-      <div class="text-2">Kattints egy szobára, hogy lásd hogyan néz ki!</div>
+      <div>Kattints egy szobára, hogy lásd hogyan néz ki!</div>
     </div>
   </div>
 
@@ -449,8 +462,21 @@
         <img class="service-icon" src="svgs/pingpong-vector.svg">
         <div class="service-text">Ping-pong</div>
       </div>
+      <div class="service-item">
+        <img class="service-icon" src="svgs/food-vector.svg">
+        <div class="service-text">Ebéd házhozszállítás</div>
+      </div>
     </div>
   </div>
+  <div class="row row-2">
+    <div class="text-2">
+      <p>
+        Mi szeretjük az állatokat, de vendégházunk kisállatokat nem fogad!
+      </p>
+      <p>
+        A Villa Pilis, vidéki hangulatban, a város zajától távol, luxus körülmények közötti pihenést biztosít, éppen ezért nagyon hangos bulikra nem alkalmas.
+      </p>
+    </div>
 </div>
 
 <?php include('footer.php'); ?>

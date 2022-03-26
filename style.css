@@ -64,6 +64,12 @@ body{
   background-image: url(img/teli-5.jpg);
 }
 
+.medium-image{
+  display: block;
+  margin: auto;
+  width: 90vw;
+}
+
 .over-text{
   font-weight: 900;
   font-size: 20px;
@@ -110,6 +116,10 @@ body{
   margin-bottom: 20px;
 }
 
+.col-image{
+  margin-bottom: 2rem;
+}
+
 .title-main{
   font-size: 40px;
   letter-spacing: 1vw;
@@ -121,11 +131,6 @@ body{
   font-size: 30px;
   color: var(--main-title-color);
   cursor: pointer;
-}
-
-.title-2:hover {
-  /* color: #2685c2; */
-  /*text-shadow: 3px 2px 15px #0e38a2;*/
 }
 
 .title-2-big{
@@ -140,9 +145,11 @@ body{
   padding: 0 10%;
   width: 100%;
 }
+
 .service-item{
   margin: 0 5px;
 }
+
 .service-icon{
   width: 100px;
   height: 100px;
@@ -164,6 +171,8 @@ body{
   display: inline-block;
   position: absolute;
   cursor: pointer;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .map-dot:hover{
@@ -240,7 +249,14 @@ body{
     margin: auto;
   }
 
- 
+  .medium-image{
+    width: 80vw;
+  }
+
+  .text-2{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 /*992 and up*/
