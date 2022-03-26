@@ -2,11 +2,10 @@
 
 
   <div class="row image-row">
-    <div id="image-big-2" class="col-12 image-big relax" data-rellax-speed="2">
-    </div>
+    <div id="image-big-2" class="col-12 image-big relax" data-rellax-speed="2"></div>
     <div class="over-text over-text-2">kell egy hely</div>
   </div>
-  </div>
+
 
 
   <div class="container-fluid container-2">
