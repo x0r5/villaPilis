@@ -86,12 +86,253 @@
         <span id="room1" class="map-dot" style="top: 20%; left: 10%;"></span>
         <span id="room2" class="map-dot" style="top: 46%; left: 10%;"></span>
         <span id="room3" class="map-dot" style="top: 75%; left: 10%;"></span>
+        <span id="room4" class="map-dot" style="top: 80%; left: 21%;"></span>
+        <span id="room5" class="map-dot" style="top: 35%; left: 27%;"></span>
+        <span id="room6" class="map-dot" style="top: 75%; left: 61%;"></span>
+        <span id="room7" class="map-dot" style="top: 39%; left: 57%;"></span>
+        <span id="room8" class="map-dot" style="top: 30%; left: 41%;"></span>
       </div>
     </div>
-    <div class="row">
-      <div id="room1-content">
-        <img class="img-fluid" src="img/"
+
+    <div class="row map-content">
+
+      <div id="room1Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room1Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room1Carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room1_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room1_2.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room1Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room1Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+
+      <div id="room2Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room2Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room2Carousel" data-slide-to="1"></li>
+          <li data-target="#room2Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room2_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room2_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room2_3.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room2Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room2Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room3Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room3Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room3Carousel" data-slide-to="1"></li>
+          <li data-target="#room3Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room3_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room3_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room3_3.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room3Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room3Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room4Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room4Carousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room4_1.jpg" alt="First slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room4Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room4Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room5Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room5Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room5Carousel" data-slide-to="1"></li>
+          <li data-target="#room5Carousel" data-slide-to="2"></li>
+          <li data-target="#room5Carousel" data-slide-to="3"></li>
+          <li data-target="#room5Carousel" data-slide-to="4"></li>
+          <li data-target="#room5Carousel" data-slide-to="5"></li>
+          <li data-target="#room5Carousel" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room5_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_3.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_4.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_5.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_6.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room5_7.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room5Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room5Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room6Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room6Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room6Carousel" data-slide-to="1"></li>
+          <li data-target="#room6Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room6_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room6_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room6_3.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room6Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room6Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room7Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room7Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room7Carousel" data-slide-to="1"></li>
+          <li data-target="#room7Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room7_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room7_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room7_3.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room7Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room7Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="room8Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#room8Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#room8Carousel" data-slide-to="1"></li>
+          <li data-target="#room8Carousel" data-slide-to="2"></li>
+          <li data-target="#room8Carousel" data-slide-to="3"></li>
+          <li data-target="#room8Carousel" data-slide-to="4"></li>
+          <li data-target="#room8Carousel" data-slide-to="5"></li>
+          <li data-target="#room8Carousel" data-slide-to="6"></li>
+          <li data-target="#room8Carousel" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/room8_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_3.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_4.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_5.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_6.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/room8_7.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#room8Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#room8Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
     </div>
   </div>
 

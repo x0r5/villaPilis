@@ -164,10 +164,20 @@ body{
   border-radius: 50%;
   display: inline-block;
   position: absolute;
+  cursor: pointer;
 }
 
 .map-container{
   position: relative;
+}
+
+.map-content{
+  width: 80%;
+  margin: auto;
+}
+
+.map-content > div{
+  display: none;
 }
 
 

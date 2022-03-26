@@ -1,11 +1,19 @@
 var scroll = window.requestAnimationFrame;
 var elementsToShow = document.querySelectorAll('.show-on-scroll');
+var selectedRoomId;
 
 document.querySelectorAll('.map-dot').forEach(element =>{element.addEventListener("click", (e)=>{handleRoomButtonClick(e)})});
 
 function handleRoomButtonClick(event){
-  let roomId = event.target.id;
-  console.log(roomId);
+  if(selectedRoomId){
+    document.querySelector(`#${selectedRoomId}Carousel`).style.display = 'none';
+  }
+  selectedRoomId = event.target.id;
+  console.log(selectedRoomId);
+  let roomContent = document.querySelector(`#${selectedRoomId}Carousel`);
+  if(roomContent){
+    roomContent.style.display = 'block';
+  }
 }
 
 $(document).ready(function () {
