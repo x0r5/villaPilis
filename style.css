@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body, html, div {
@@ -20,7 +21,7 @@ body, html, div {
 
 body{
   background-color: #F2F2F2;
-  width: calc(100vw - 17px);
+  position: absolute;
   overflow-x: hidden;
 }
 
@@ -36,6 +37,7 @@ body{
 body{
   height: 3000px;
 }
+
 .navbar-brand{
   letter-spacing: 1vw;
   transform: translateX(-50%);
@@ -103,6 +105,11 @@ body{
   margin-top: 100px;
 }
 
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .row-2{
   margin-top: 40px;
 }
@@ -158,13 +165,17 @@ body{
 }
 
 .map-dot{
-  height: 2rem;
-  width: 2rem;
-  background-color: #6200bce8;
+  height: 3vw;
+  width: 3vw;
+  background-color: #F3B861;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
   cursor: pointer;
+}
+
+.map-dot:hover{
+  background-color: #ffa725;
 }
 
 .map-container{
@@ -203,12 +214,17 @@ body{
 }
 
 @media all and (min-width: 768px){
+
+  html{
+    font-size: 14px;
+  }
+
   .over-text{
     font-size: 50px;
     font-weight: 100;
   }
   .title-2{
-    margin-top: 33%;
+    margin-top: 0;
     font-size: 40px;
   }
 

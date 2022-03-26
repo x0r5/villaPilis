@@ -4,7 +4,7 @@
   <div class="row image-row">
     <div id="image-big-2" class="col-12 image-big relax" data-rellax-speed="2">
     </div>
-    <div class="over-text over-text-2">Mert kell egy hely</div>
+    <div class="over-text over-text-2">kell egy hely</div>
   </div>
   </div>
 
@@ -17,12 +17,14 @@
     <div class="row row-2">
       <div class="col-md">
         <div class="title-2" onclick="location.href = '/wellness'" >Wellness</div><a href="/wellness">Tovább ></a>
-        <div class="text-2"><p>
-          A napozás és fürdés kedvelőinek a kertben lévő 70m2-es Wellness teraszt ajánljuk. Rajta egy hatszor háromméteres egyméterhúsz centi mély fűtött úszómedence – mely április 15 és október 1-e között üzemel -található.
-        </p>
-        <p>
-          A teraszon napozó ágyak és „napozó zsákok” biztosítják a gondtalan pihenést. A 6 személyes finn szauna mellette csobbanó medence található. A szauna nagy méretű ablaka a kertre néz, ami télen csodálatos kontrasztot teremt a gyönyörű havas táj látványa és a szauna melege között. 
-         </p></div>
+        <div class="text-2">
+          <p>
+            A napozás és fürdés kedvelőinek a kertre nyíló hatalmas Wellness teraszt ajánljuk. Itt található egy fűtött 6x3m -es úszómedence (április 15 és október 1 között üzemel), napozó ágyakkal, színes babzsákokkal.
+          </p>
+          <p>
+            Továbbá a wellness részleghez tartozik egy 6 személyes finn szauna, mellette csobbanó medence és álló zuhany. A szauna nagy méretű ablaka a kertre néz, ami télen csodálatos kontrasztot teremt a gyönyörű havas táj látványa és a szauna melege között.
+          </p>
+        </div>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
@@ -35,7 +37,12 @@
     <div class="row row-2">
       <div class="col-md title-2-small">
         <div class="title-2" onclick="location.href ='/calm'" >Nyugalom</div><a href="/calm">Tovább ></a>
-        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+          <div class="text-2">
+            <p>A Pilis lábánál és a Dunakanyar szívében garantált a kikapcsolódás.</p>
+            <p>A teraszokat egy hatalmas virágoskert veszi körül, ahol sétautak, római kori romok, és a domb tetején dunakanyari panorámát nyújtó kilátó található.</p>
+            <p>A gyerekek játszóterén homokozó, hinta és egy baba csobbanó kapott helyet.</p>
+
+          </div>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
@@ -44,19 +51,23 @@
       </div>
       <div class="col-md title-2-big">
         <div class="title-2" onclick="location.href ='/calm'" >Nyugalom</div><a href="/calm">Tovább ></a>
-        <div class="text-2">A Pilis lábánál és Dunakanyar szívében garantált a kikapcsolódás.</div>
+          <div class="text-2">
+            <p>A Pilis lábánál és a Dunakanyar szívében garantált a kikapcsolódás.</p>
+            <p>A teraszokat egy hatalmas virágoskert veszi körül, ahol sétautak, római kori romok, és a domb tetején dunakanyari panorámát nyújtó kilátó található.</p>
+            <p>A gyerekek játszóterén homokozó, hinta és egy baba csobbanó kapott helyet.</p>
+          </div>
       </div>
     </div>
 
     <div class="row row-2">
       <div class="col-md">
-        <div class="title-2" onclick="location.href ='/terrace'" >Fedett grillterasz</div><a href="/terrace">Tovább ></a>
+        <div class="title-2" onclick="location.href ='/terrace'" >Fedett grill terasz</div><a href="/terrace">Tovább ></a>
         <div class="text-2">Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
           egyaránt.</div>
       </div>
       <div class="col-md-8">
         <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
-          <img class="img-fluid" src="img/belso-1.jpg">
+          <img class="img-fluid" src="img/terasz2.jpg">
         </div>
       </div>
     </div>
@@ -68,7 +79,7 @@
       </div>
       <div class="col-md-8">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
-          <img class="img-fluid" src="img/belso-2.jpg">
+          <img class="img-fluid" src="img/room3_1.jpg">
         </div>
       </div>
       <div class="col-md title-2-big">
