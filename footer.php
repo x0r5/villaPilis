@@ -10,7 +10,7 @@
 
 <div class="container-fluid my-5">
 
-    <div class="title-2">Foglalj most!</div>
+    <div class="title-2">Kapcsolat</div>
 
     <form class="mx-5" id="reservation-form">
         <div class="form-row">
@@ -66,14 +66,7 @@
 
 
         <div class="form-row">
-        <div class="form-group col-md-4">
-            <label for="input-villa">Az egész kell?</label>
-            <select id="input-villa" class="form-control" name="input-villa">
-            <option selected>Az egész villa az enyém!</option>
-            <option>4 -en vagyunk, a fél villával is beérem!</option>
-            </select>
-        </div>
-        <div class="form-group col-md-8">
+        <div class="form-group col">
             <label for="input-comment">Megjegyzés</label>
             <textarea class="form-control" id="input-comment" rows="3" name="input-comment"></textarea>
         </div>

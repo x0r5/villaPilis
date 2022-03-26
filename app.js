@@ -14,6 +14,7 @@ function handleRoomButtonClick(event){
   if(roomContent){
     roomContent.style.display = 'block';
   }
+  roomContent.scrollIntoView();
 }
 
 $(document).ready(function () {

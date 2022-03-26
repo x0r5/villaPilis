@@ -89,8 +89,15 @@
 
   </div>
 
-  <div class="container-fluid container-2">
-    <div class="row row-2">
+  <div class="row row-2">
+    <div class="col-md">
+      <div class="title-2">Alaprajz képekkel</div>
+      <div class="text-2">Kattints egy szobára, hogy lásd hogyan néz ki!</div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
       <div class="container map-container">
         <img src="svgs/villa-alaprajz.svg"></img>
         <span id="room1" class="map-dot" style="top: 20%; left: 10%;"></span>
@@ -101,6 +108,8 @@
         <span id="room6" class="map-dot" style="top: 75%; left: 61%;"></span>
         <span id="room7" class="map-dot" style="top: 39%; left: 57%;"></span>
         <span id="room8" class="map-dot" style="top: 30%; left: 41%;"></span>
+        <span id="bath1" class="map-dot" style="top: 81%; left: 30%;"></span>
+        <span id="bath2" class="map-dot" style="top: 84%; left: 51%;"></span>
       </div>
     </div>
 
@@ -338,6 +347,49 @@
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#room8Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="bath1Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#bath1Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bath1Carousel" data-slide-to="1" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/bath1_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/bath1_2.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#bath1Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bath1Carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <div id="bath2Carousel" class="carousel slide" data-pause="false" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#bath2Carousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/bath2_1.jpg" alt="First slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#bath2Carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bath2Carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
