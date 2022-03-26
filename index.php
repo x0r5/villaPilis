@@ -437,6 +437,18 @@
         <img class="service-icon" src="svgs/sunbath-vector.svg">
         <div class="service-text">Napozóágy</div>
       </div>
+      <div class="service-item">
+        <img class="service-icon" src="svgs/nodog-vector.svg">
+        <div class="service-text">Nem kutyabarát</div>
+      </div>
+      <div class="service-item">
+        <img class="service-icon" src="svgs/bike-vector.svg">
+        <div class="service-text">Bicikli</div>
+      </div>
+      <div class="service-item">
+        <img class="service-icon" src="svgs/pingpong-vector.svg">
+        <div class="service-text">Ping-pong</div>
+      </div>
     </div>
   </div>
 </div>
