@@ -73,7 +73,7 @@
 
     <div class="row row-2">
       <div class="col-md">
-        <div class="title-2" onclick="location.href ='#'" >Fedett grill terasz</div><a href="#">Tovább ></a>
+        <div class="title-2" onclick="location.href ='/terrace.php'" >Fedett grill terasz</div><a href="/terrace.php">Tovább ></a>
         <div>Még rossz időben is megannyi elfoglaltság közül választhattok a házon belül és kívül
           egyaránt.</div>
       </div>
@@ -86,7 +86,7 @@
 
     <div class="row row-2">
       <div class="col-md title-2-small">
-        <div class="title-2" onclick="location.href = '/rooms'" >Kényelmes és tágas szobák</div><a href="/rooms">Tovább ></a>
+        <div class="title-2" onclick="location.href = '#floormap'" >Kényelmes és tágas szobák</div><a href="#floormap">Tovább ></a>
         <div>Egyedileg berendezett, tágas terek találhatóak a házon belül, hogy garantált legyen a kikapcsolódás.</div>
       </div>
       <div class="col-md-8">
@@ -102,14 +102,16 @@
 
   </div>
 
-  <div id="floormap" class="row row-2">
-    <div class="col-md">
-      <div class="title-2">Alaprajz képekkel</div>
-      <div>Kattints egy szobára, hogy lásd hogyan néz ki!</div>
+  <div class="container-fluid container-2">
+    <div id="floormap" class="row row-2">
+      <div class="col-md">
+        <div class="title-2">Alaprajz képekkel</div>
+        <div>Kattints egy szobára, hogy lásd, mi van benne!</div>
+      </div>
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid map-container-fluid">
     <div class="row">
       <div class="container map-container">
         <img src="svgs/villa-alaprajz.svg"></img>

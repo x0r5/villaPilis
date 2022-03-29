@@ -28,23 +28,32 @@
   <div class="body-wrapper">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Villa Pilis</a>
+      <a class="navbar-brand" href="/">Villa Pilis</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/wellness.php">Wellness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/activities.php">Kikapcsolódás</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#reservation-form">Foglalás</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://maps.google.com/maps?ll=47.781148,18.880781&z=16&t=m&hl=hu&gl=HU&mapclient=embed&cid=1401769391450016462">Terkep</a>
+            <a class="nav-link" target="_blank" 
+            href="https://maps.google.com/maps?ll=47.781148,18.880781&z=16&t=m&hl=hu&gl=HU&mapclient=embed&cid=1401769391450016462"
+            >Térkép</a>
           </li>
         </ul>
       </div>
     </nav>
-
-
 
     <div class="row">
       <div id="image-big-1" class="col image-big">

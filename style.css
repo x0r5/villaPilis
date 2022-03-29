@@ -181,6 +181,13 @@ body{
 
 .map-container{
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.map-container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .map-content{
