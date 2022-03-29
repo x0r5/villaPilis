@@ -199,7 +199,9 @@ body{
   display: none;
 }
 
-
+#reservation-form{
+  width: 100%;
+}
 
 
 @media all and (min-width: 576px){

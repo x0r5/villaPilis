@@ -7,6 +7,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="description" content="Wellness vidéki vendégház erdős környezetben a Pilis és a Dunakanyar szívében.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -21,7 +27,7 @@
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Villa Pilis Dunakanyar</title>
+  <title>Villa Pilis Dunakanyar | wellness szállás és utazás vidéken</title>
 </head>
 
 <body>
@@ -44,7 +50,7 @@
             <a class="nav-link" href="/activities.php">Kikapcsolódás</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#reservation-form">Foglalás</a>
+            <a class="nav-link" href="#reservation-form">Kapcsolat</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" target="_blank" 

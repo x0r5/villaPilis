@@ -9,10 +9,11 @@
 </div>
 
 <div class="container-fluid my-5">
-
-    <div class="title-2">Kapcsolat</div>
-
-    <form class="mx-5" id="reservation-form">
+  <div class="row row-2">
+    <div class="title-main">Kapcsolat</div>
+  </div>
+  <div class="row justify-content-md-center">
+    <form id="reservation-form">
         <div class="form-row">
         <div class="form-group col-md-6">
             <label for="input-date">Mikor?</label>
@@ -60,23 +61,40 @@
         </div>
         <div class="form-group col-md-6">
             <label for="input-email">Email cím</label>
-            <input id="input-email" type="email" class="form-control" placeholder="email" name="input-email">
+            <input id="input-email" type="email" class="form-control" placeholder="Bizalmasan kezeljük és nem használjuk marketing célokra." name="input-email">
         </div>
         </div>
 
 
         <div class="form-row">
         <div class="form-group col">
-            <label for="input-comment">Megjegyzés</label>
+            <label for="input-comment">A kérésed leírása</label>
             <textarea class="form-control" id="input-comment" rows="3" name="input-comment"></textarea>
         </div>
         </div>
         <div class="g-recaptcha" data-sitekey="6LchVOAUAAAAAELOhQRZaEyMJX4HbqupnVEgCxZ1"></div>
-        <button type="submit" class="send-button btn btn-primary mx-auto">Küldés</button>
+        <button type="submit" class="send-button btn btn-primary mx-auto mt-1">Küldés</button>
         <div id="error"></div>
         <div id="formsent"></div>
 
     </form>
+  </div>
+  <div class="row mt-2">
+    <div class="col-sm-4"><h6>Instagram:</h6></div>
+      <div class="col-sm-8"><h6><a href="http://www.instagram.com/villapilis" target="_blank">villapilis</a></h6></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"><h6>Facebook:</h6></div>
+      <div class="col-sm-8"><h6><a href="https://www.facebook.com/villapilisdunakanyar/" target="_blank">villapilisdunakanyar</a></h6></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"><h6>Email:</h6></div>
+      <div class="col-sm-8"><h6><a href="mailto:info@villapilis.hu" target="_top">info@villapilis.hu</a></h6></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"><h6>Telefon:</h6></div>
+      <div class="col-sm-8"><h6><a href="tel:+36203245569">+36 20 3245 569</a></h6></div>
+  </div>
 </div>
 
   <!-- Optional JavaScript -->
