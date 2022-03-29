@@ -82,18 +82,17 @@ $(document).ready(function () {
 
 $("#reservation-form").submit(function (event) {
   event.preventDefault();
-  alert('Ez még nem működik!');
-  return;
-  var $form = $(this);
-  var $inputs = $form.find("input-date, input-persons, input-children, input-villa, input-name, input-email");
-  var formerror = $form.find("[id='error']");
-  var formsent = $form.find("[id='formsent']");
 
+  let $form = $(this);
+  let $inputs = $form.find("input-date, input-persons, input-children, input-name, input-email");
+  let formerror = $form.find("[id='error']");
+  let formsent = $form.find("[id='formsent']");
 
-  var serializedData = $form.serialize();
+  var serializedData = $('#reservation-form').serialize();
+  console.log(serializedData);
   $inputs.prop("disabled", true);
 
-  request = $.ajax({
+  let request = $.ajax({
     url: "reservation.php",
     type: "post",
     dataType: "json",
