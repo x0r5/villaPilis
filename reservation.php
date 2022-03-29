@@ -106,6 +106,7 @@
             $mail->AddAddress($email, $name);         // Cimzett es neve
             $mail->AddReplyTo($from, 'Infromáció'); // Valaszlevel ide
             $mail->AddBCC($from, 'Új levél érkezett!');
+            $mail->AddBCC($bcc, 'Új levél érkezett!');
 
             $mail->WordWrap = 80;                                     // Sortores allitasa
             $mail->IsHTML(true);                                      // Kuldes HTML-kent
