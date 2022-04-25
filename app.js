@@ -17,26 +17,21 @@ function handleRoomButtonClick(event){
   roomContent.scrollIntoView();
 }
 
-$(document).ready(function () {
+$(function () {
 
   var date = new Date();
   var today = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate());
-  var tomorrow = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + (date.getDate() + 1));
+  var enddate = (date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + (date.getDate() + 2));
 
   var rellax = new Rellax('.relax'); //rellax.js
   AOS.init(); //scroll animations
-
-  $(".showit").click(function () {
-    $parent = $(this).parent().parent().find(".col-md-8");
-    $parent.find("img").slideToggle();
-    $parent.find("#toshow").slideToggle("slow");
-  });
 
 
   $('input[name="daterange"]').daterangepicker({
     "maxSpan": {
       "days": 10
     },
+    "minDate": today,
     "locale": {
       "format": "YYYY/MM/DD",
       "separator": " - ",
@@ -72,15 +67,20 @@ $(document).ready(function () {
       "firstDay": 1
     },
 
-    "startDate": this.today,
-    "endDate": this.tomorrow
+    "startDate": today,
+    "endDate": enddate
   }, function (start, end, label) {
     console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+    let oneDayMs = 1000 * 60 * 60 * 24;
+    let difference = (end - start + 1) / oneDayMs;
+    if(difference < 3){
+      alert('A minimum foglalható éjszakák száma 2.');
+    }
   });
 
 });
 
-$("#reservation-form").submit(function (event) {
+$("#reservation-form").on("submit", function (event) {
   event.preventDefault();
 
   let $form = $(this);

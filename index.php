@@ -473,10 +473,10 @@
   <div class="row row-2">
     <div class="text-2">
       <p>
-        Mi szeretjük az állatokat, de vendégházunk kisállatokat nem fogad!
+        Mi szeretjük az állatokat, de <span class="red">vendégházunk kisállatokat nem fogad!</span>
       </p>
       <p>
-        A Villa Pilis, vidéki hangulatban, a város zajától távol, luxus körülmények közötti pihenést biztosít, éppen ezért nagyon hangos bulikra nem alkalmas.
+        A Villa Pilis, vidéki hangulatban, a város zajától távol, luxus körülmények közötti pihenést biztosít, éppen ezért nagyon hangos bulikra nem alkalmas és<span class="red"> minimum két éjszakás foglalást tud csak biztosítani.</span>
       </p>
     </div>
 </div>

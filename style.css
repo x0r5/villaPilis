@@ -203,6 +203,10 @@ body{
   width: 100%;
 }
 
+.red{
+  color: #e40000;
+}
+
 
 @media all and (min-width: 576px){
   .over-text{
@@ -285,6 +289,10 @@ body{
   .service-icon{
     width: 120px;
     height: 120px;
+  }
+
+  .medium-image{
+    width: 60vw;
   }
 
   

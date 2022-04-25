@@ -43,6 +43,9 @@
         <div class="col col-image">
             <img class="medium-image" src="img/activities_8.jpg" />
         </div>
+        <div class="col col-image">
+            <img class="medium-image" src="img/activities_9.jpg" />
+        </div>
     </div>
 </div>
 
