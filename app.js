@@ -20,7 +20,17 @@ function handleRoomButtonClick(event){
   if(roomContent){
     roomContent.style.display = 'block';
   }
-  roomContent.scrollIntoView();
+  if(! isDevicePortrait()){
+    roomContent.scrollIntoView();
+  }else{
+    let topOfMapPage = document.querySelector("#floormap");
+    topOfMapPage.scrollIntoView();
+  }
+  
+}
+
+function isDevicePortrait(){
+  return screen.height > screen.width;
 }
 
 function handleScrollToTitle(){

@@ -34,14 +34,6 @@ body{
   letter-spacing: 1vw;
 }
 
-/*
-.navbar-toggler{
-  left: 100%;
-  transform: translateX(-100%);
-  position: relative;
-}
-*/
-
 .image-big{
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,8 +160,8 @@ body{
 }
 
 .map-dot{
-  height: 3vw;
-  width: 3vw;
+  height: 4vw;
+  width: 4vw;
   background-color: #F3B861;
   border-radius: 50%;
   display: inline-block;
@@ -207,6 +199,56 @@ body{
   width: 100%;
 }
 
+#room1{
+  top: 20%;
+  left: 8%;
+}
+
+#room2{
+  top: 46%;
+  left: 8%;
+}
+
+#room3{
+  top: 75%;
+  left: 8%;
+}
+
+#room4{
+  top: 80%;
+  left: 19%;
+}
+
+#room5{
+  top: 35%;
+  left: 25%;
+}
+
+#room6{
+  top: 75%;
+  left: 61%;
+}
+
+#room7{
+  top: 39%;
+  left: 57%;
+}
+
+#room8{
+  top: 30%;
+  left: 40%;
+}
+
+#bath1{
+  top: 81%;
+  left: 28%;
+}
+
+#bath2{
+  top: 84%;
+  left: 51%;
+}
+
 .red{
   color: #e40000;
 }
@@ -231,7 +273,60 @@ body{
     font-size: 1.5rem;
   }
 
- 
+  .map-dot{
+    height: 3vw;
+    width: 3vw;
+  }
+
+  #room1{
+    top: 20%;
+    left: 10%;
+  }
+  
+  #room2{
+    top: 46%;
+    left: 10%;
+  }
+  
+  #room3{
+    top: 75%;
+    left: 10%;
+  }
+  
+  #room4{
+    top: 80%;
+    left: 21%;
+  }
+  
+  #room5{
+    top: 35%;
+    left: 27%;
+  }
+  
+  #room6{
+    top: 75%;
+    left: 61%;
+  }
+  
+  #room7{
+    top: 39%;
+    left: 57%;
+  }
+  
+  #room8{
+    top: 30%;
+    left: 41%;
+  }
+  
+  #bath1{
+    top: 81%;
+    left: 30%;
+  }
+  
+  #bath2{
+    top: 84%;
+    left: 51%;
+  }
   
 }
 
