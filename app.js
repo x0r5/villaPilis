@@ -4,6 +4,12 @@ var selectedRoomId;
 
 document.querySelectorAll('.map-dot').forEach(element =>{element.addEventListener("click", (e)=>{handleRoomButtonClick(e)})});
 
+$(document).ready(function(){
+  if(window.location.href.includes('.php')){
+    handleScrollToTitle();
+  }
+});
+
 function handleRoomButtonClick(event){
   if(selectedRoomId){
     document.querySelector(`#${selectedRoomId}Carousel`).style.display = 'none';
@@ -15,6 +21,12 @@ function handleRoomButtonClick(event){
     roomContent.style.display = 'block';
   }
   roomContent.scrollIntoView();
+}
+
+function handleScrollToTitle(){
+  $('html, body').animate({
+    scrollTop: $(".title-main").offset().top
+  }, 500);
 }
 
 $(function () {
