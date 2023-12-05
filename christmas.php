@@ -7,11 +7,11 @@
         <div class="col-md">
           <div>
             <p>
-                Töltsd a karácsonyt egy meghitt és nyugodt környezetben a távol a városi nyüzsgéstől.
+                Töltsd a karácsonyt egy meghitt és nyugodt környezetben távol a városi nyüzsgéstől.
             </p>
             <p>
               
-                Karácsony idején semmi sem fontosabb, mint a kényelem és a meghittség. Ha egy olyan helyre vágytok, ahol az ünnepi hangulatot a nyugalom és a kényeztetés öleli át, akkor a Villa Pilis tökéletes választás számotokra. A karácsony itt valódi ünnep lesz, ahol a családi együttlétet és a pihenést egyaránt garantáljuk. Vendégházunk varázslatos atmoszférája az ünnepi dekorációval, a meleg kandallóval és a gondosan kialakított karácsonyi programokkal mindenkit elvarázsol.
+                Karácsony idején semmi sem fontosabb, mint a kényelem és a meghittség. Ha egy olyan helyre vágytok, ahol az ünnepi hangulatot a nyugalom és a kényeztetés öleli át, akkor a Villa Pilis tökéletes választás számotokra. A karácsony itt valódi ünnep lesz, ahol a családi együttlétet és a pihenést egyaránt garantáljuk. Vendégházunk varázslatos atmoszférája az ünnepi dekorációval, a meleg kandallóval és számtalan adventi programlehetőséggel a szomszédes Esztergomban.
             </p>
             <p>
                 Emellett pedig olyan wellness szolgáltatásokkal várunk benneteket, amik a teljes felfrissülést és feltöltődést garantálják. A szauna gyógyító melegsége és a kis medence kellemes vize a hideg téli napokon is felmelegít és ellazít. A karácsonyi kikapcsolódás itt nem csupán egy ünnep, hanem egy élmény, ahol a test és lélek harmóniája a legfontosabb.

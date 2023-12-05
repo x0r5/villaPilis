@@ -466,7 +466,7 @@
       </div>
       <div class="service-item">
         <img class="service-icon" src="svgs/food-vector.svg">
-        <div class="service-text">Ebéd házhozszállítás</div>
+        <div class="service-text">Ebéd kiszállítás</div>
       </div>
     </div>
   </div>

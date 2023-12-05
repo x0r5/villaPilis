@@ -98,7 +98,7 @@ body{
 }
 
 .container-2{
-  padding: 0 15vw;
+  padding: 0 5vw;
   margin-top: 100px;
 }
 
@@ -119,6 +119,8 @@ body{
 
 .col-image{
   margin-bottom: 2rem;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .title-main{
@@ -158,6 +160,7 @@ body{
 
 .service-text{
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .send-button{
@@ -270,6 +273,9 @@ body{
   .medium-image{
     width: 80vw;
   }
+  .container-2{
+    padding: 0 10vw;
+  }
 
   .text-2{
     padding-left: 10%;
@@ -298,6 +304,10 @@ body{
 
   .medium-image{
     width: 60vw;
+  }
+
+  .container-2{
+    padding: 0 15vw;
   }
 
 

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Create a temporary directory
+temp_dir=$(mktemp -d)
+
+# Get list of modified files using git diff
+modified_files=$(git diff $1 --name-only)
+
+# Copy modified files to the temporary directory
+for file in $modified_files
+do
+    curl --netrc-file .netrc -T "$file" ftp://villapilis.hu/villapilis.hu/html/"$file" --verbose
+done
