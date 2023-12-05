@@ -5,8 +5,13 @@ temp_dir=$(mktemp -d)
 
 # Get list of modified files using git diff
 modified_files=$(git diff $1 --name-only)
+echo "Modified files:$modified_files"
+arrFiles=($modified_files)
+filecount=${#arrFiles[@]}
+echo "Uploading $filecount file(s)."
 
 # Copy modified files to the temporary directory
+
 for file in $modified_files
 do
     curl --netrc-file .netrc -T "$file" ftp://villapilis.hu/villapilis.hu/html/"$file" --verbose

@@ -2,3 +2,4 @@ phpmyadmin
 phpmailer/
 src/credentials.php
 .DS_Store
+.netrc
