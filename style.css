@@ -32,16 +32,15 @@ body{
 
 .navbar-brand{
   letter-spacing: 1vw;
-  transform: translateX(-50%);
-  left: 50%;
-  position: absolute;
 }
 
+/*
 .navbar-toggler{
-  transform: translateX(-50%);
   left: 100%;
+  transform: translateX(-100%);
   position: relative;
 }
+*/
 
 .image-big{
   background-size: cover;
@@ -99,13 +98,15 @@ body{
 }
 
 .container-2{
-  padding: 0 3vw;
+  padding: 0 15vw;
   margin-top: 100px;
 }
 
 .row{
   margin-left: 0;
   margin-right: 0;
+  font-size: 1rem;
+  padding-top: 2rem;
 }
 
 .row-2{
@@ -121,14 +122,14 @@ body{
 }
 
 .title-main{
-  font-size: 40px;
+  font-size: 2rem;
   letter-spacing: 1vw;
   color: var(--main-title-color);
   
 }
 
 .title-2{
-  font-size: 30px;
+  font-size: 1.5rem;
   color: var(--main-title-color);
   cursor: pointer;
 }
@@ -223,6 +224,10 @@ body{
     margin-top: 100px;
   }
 
+  .row{
+    font-size: 1.5rem;
+  }
+
  
   
 }
@@ -239,11 +244,11 @@ body{
   }
   .title-2{
     margin-top: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .title-main{
-    font-size: 50px;
+    font-size: 3.5rem;
   }
 
   .title-2-big{
@@ -294,6 +299,7 @@ body{
   .medium-image{
     width: 60vw;
   }
+
 
   
 }
