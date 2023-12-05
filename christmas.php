@@ -35,6 +35,13 @@
         <div class="col col-image">
             <img class="medium-image" src="img/christmas-5.jpg" />
         </div>
+        <div class="col col-image">
+            <img class="medium-image" src="img/christmas-6.jpg" />
+        </div>
+        <div class="col col-image">
+            <img class="medium-image" src="img/christmas-7.jpg" />
+        </div>
+
     </div>
 </div>
 
